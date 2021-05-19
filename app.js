@@ -20,10 +20,10 @@ res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+p
 console.log(__dirname+"/images/mithunlogo.jpg");
 */
 app.get('/thenewtechnologies', function(request, response) {
-    response.send("<h2><center> Welcome to Node JS app </h2>");
+    //response.send("<h2><center> Welcome to Node JS app </h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to The New Technologies. Please Contact +91 7276456116 for more information or send an email to amardeepjagtap199@gmail.com <center></h2>" );
+    response.write("<h2>Welcome to The New Technologies. Please Contact +91 7276456116 for more information or send an email to amardeepjagtap199@gmail.com</h2>" );
     response.end();
     
   })
